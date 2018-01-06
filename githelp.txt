@@ -1,0 +1,67 @@
+CONFIG
+
+$ git config --global user.name "bucky roberts"
+
+$ git config --global user.email "buck@gmail.com"
+
+
+$ git config --list
+
+$ git config user.email
+
+$ git help commit
+
+$pwd ...where git is looking
+
+$ cd ~ -->takes to home
+$pwd
+
+
+intilazie
+$git init --> go to respective folder-> turn into git project
+initilize empty Git repository in c:/mygitproj/.git/
+git is keeping to check change in the folder
+pwd
+
+Directly add to repository 
+ $git commit -am "direct add repository"
+
+working copy > staging area > repositorygpwdloggit
+
+$ls -la
+
+
+Add all changes to project..Here dot (.) means folder
+$git add .
+We are telling hey git make all changes to folder and hit.It is aware that we added a file "test.txt" to this folder.
+
+To make it aware of changes we have to commit
+$ git commit -m "this is my first commit"
+
+commit means taking snapshot which help us return to that point if needed.
+git
+$git log -- list of commits displayed
+
+$ git log --author="sriniwas"
+
+$git status -- --> on branch master nothing to commit
+
+$git diff --> tell the  difference in repostiory and file modified.
+
+It show difference in working copy and repository. If you add file to staging, git diff will not show anything
+
+comparing file in staging area and repistory
+$git diff --staged
+
+deleting file from repository and working file
+$git rm 'second.txt'
+
+in git moving a file means renaming it
+$git mv second.txt third.txt
+
+moving to a folder
+
+$git mv second.txt test_folder
+gi
+
+
