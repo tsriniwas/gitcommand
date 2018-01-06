@@ -1,0 +1,17 @@
+make folder in desktop
+
+$git init
+
+got to github website create public repository
+
+create nickname poing to url of repository
+
+
+$git remote githelp https://github.com/tsriniwas/gitcommand
+$git remote
+
+
+copy ur project
+$git add .
+$git commit -m "first commit"
+$ git push -u githelp master
